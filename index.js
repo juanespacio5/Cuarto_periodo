@@ -7,3 +7,16 @@ function sumar () {
 sumar();
 sumar();
 sumar();
+
+alert("jajaja xdxdxd")
+//Diseñar una funcion que capture el nombre del usuario y despues lo salude dicho nombre capturado.
+
+/* Para resolver el ejercicio necesito capturar el nombre del usuario a traves de una función*/
+
+function saludo () {
+    let nombre = prompt("escribe tu nombre");
+    let apellido = prompt("escribe tu apellido");
+    let completo = nombre +" "+apellido;
+    alert("bienvenido "+completo);
+}
+saludo();
