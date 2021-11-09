@@ -33,3 +33,30 @@ function bienvenida () {
     alert("bienvenido " + tratamiento + " " + nombre);
 }
 bienvenida();
+
+
+let arreglo = ["Yamaha", "Royal Einfield", "AKT", "Honda", "Bajaj"];
+let arreglo2 = [];
+for (let i = 0; i < arreglo.length; i++) {
+    arreglo2 [i] = prompt ("Dime una marca de motos que conozcas: ");
+}
+let arreglo3 = [];
+for (let i = 0; i < arreglo2.length; i++) {
+    for (let a = 0; a < arreglo2.length; a++) {
+        arreglo3[a]= arreglo2 [i]==arreglo[a];
+    }
+    console.log(arreglo3)
+}
+
+window.onload = () => {
+    var numero1, numero2, resta, resultado;
+    numero1 = Number(prompt("Escribe un numero: "));
+    numero2 = Number(prompt("Escribe otro numero por favor: "));
+    resta = numero1-numero2;
+    resultado = numero1+numero2;
+    document.write("La suma dio como resultado:" + resultado + '<BR/>');
+    document.write(resta,'<BR/>');
+}
+//sin_titulo();
+
+//DOM = Document Object Model
